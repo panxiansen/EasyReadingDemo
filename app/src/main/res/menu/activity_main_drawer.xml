@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pic"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="图片浏览" />
+        <item
+            android:id="@+id/nav_read"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="随心阅读" />
+        <item
+            android:id="@+id/nav_film"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="视频爽看" />
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="音乐播放" />
+    </group>
+
+
+
+    <item android:title="喜欢就点个赞+_+">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="意见反馈" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="关于作者" />
+        </menu>
+    </item>
+
+</menu>

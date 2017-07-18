@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_above="@+id/music_fragment_seekbar"
+        android:id="@+id/music_fragment_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/music_fragment_seekbar"
+        android:layout_above="@+id/music_fragment_playview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/music_fragment_playview"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:id="@+id/music_fragment_back"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:src="@mipmap/music_pic_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/music_fragment_play"
+            android:layout_weight="1"
+            android:src="@mipmap/music_pic_play"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/music_fragment_next"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:src="@mipmap/music_pic_next"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
